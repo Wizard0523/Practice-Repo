@@ -7,6 +7,6 @@ I played Git Tac Toe to learn git and github. I learned to clone a repository, a
 I also learned about branches. I learned to navigate to an old commit, and how to create a new branch from the old commit.
 
 commands:
-git checkout <commit ID>  -- switches to old commit
-git checkout -b <name>  -- creates a new branch
+git checkout <commit ID>  -- switches to old commit <br>
+git checkout -b <name>  -- creates a new branch <br>
 
