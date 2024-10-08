@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int value = 25;
+//int& ref = value;
+
+//change address to value to break the 
+int* ptr = &value;
+
+void referenceTest(int& value) {
+    cout<<value;
+}
+
+int main() {
+    int& ref = value;
+    referenceTest(ref);
+
+}
